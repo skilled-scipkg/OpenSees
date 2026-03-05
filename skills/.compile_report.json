@@ -1,0 +1,339 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "opensees",
+  "evidence": {
+    "core_skills": [
+      "opensees-examples-and-tutorials",
+      "opensees-src",
+      "opensees-build-and-install",
+      "opensees-api-and-scripting",
+      "opensees-theory-and-methods",
+      "opensees-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/opensees-examples-and-tutorials.md",
+      "skills/.evidence/opensees-src.md",
+      "skills/.evidence/opensees-build-and-install.md",
+      "skills/.evidence/opensees-api-and-scripting.md",
+      "skills/.evidence/opensees-theory-and-methods.md",
+      "skills/.evidence/opensees-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/opensees-api-and-scripting/SKILL.md",
+        "skills/opensees-build-and-install/SKILL.md",
+        "skills/opensees-examples-and-tutorials/SKILL.md",
+        "skills/opensees-inputs-and-modeling/SKILL.md",
+        "skills/opensees-src/SKILL.md",
+        "skills/opensees-theory-and-methods/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/opensees-api-and-scripting/SKILL.md",
+        "skills/opensees-build-and-install/SKILL.md",
+        "skills/opensees-examples-and-tutorials/SKILL.md",
+        "skills/opensees-inputs-and-modeling/SKILL.md",
+        "skills/opensees-src/SKILL.md",
+        "skills/opensees-theory-and-methods/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/opensees-api-and-scripting/references/doc_map.md",
+        "skills/opensees-api-and-scripting/references/source_map.md",
+        "skills/opensees-build-and-install/SKILL.md",
+        "skills/opensees-build-and-install/references/doc_map.md",
+        "skills/opensees-build-and-install/references/source_map.md",
+        "skills/opensees-developer-guide/SKILL.md",
+        "skills/opensees-developer-guide/references/doc_map.md",
+        "skills/opensees-developer-guide/references/source_map.md",
+        "skills/opensees-examples-and-tutorials/SKILL.md",
+        "skills/opensees-examples-and-tutorials/references/doc_map.md",
+        "skills/opensees-examples-and-tutorials/references/source_map.md",
+        "skills/opensees-index/SKILL.md",
+        "skills/opensees-inputs-and-modeling/references/doc_map.md",
+        "skills/opensees-inputs-and-modeling/references/source_map.md",
+        "skills/opensees-simulation-workflows/SKILL.md",
+        "skills/opensees-simulation-workflows/references/doc_map.md",
+        "skills/opensees-simulation-workflows/references/source_map.md",
+        "skills/opensees-src/SKILL.md",
+        "skills/opensees-src/references/doc_map.md",
+        "skills/opensees-src/references/source_map.md",
+        "skills/opensees-theory-and-methods/SKILL.md",
+        "skills/opensees-theory-and-methods/references/doc_map.md",
+        "skills/opensees-theory-and-methods/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/opensees-api-and-scripting/references/doc_map.md",
+        "skills/opensees-api-and-scripting/references/source_map.md",
+        "skills/opensees-build-and-install/SKILL.md",
+        "skills/opensees-build-and-install/references/doc_map.md",
+        "skills/opensees-build-and-install/references/source_map.md",
+        "skills/opensees-developer-guide/SKILL.md",
+        "skills/opensees-developer-guide/references/doc_map.md",
+        "skills/opensees-developer-guide/references/source_map.md",
+        "skills/opensees-examples-and-tutorials/SKILL.md",
+        "skills/opensees-examples-and-tutorials/references/doc_map.md",
+        "skills/opensees-examples-and-tutorials/references/source_map.md",
+        "skills/opensees-index/SKILL.md",
+        "skills/opensees-inputs-and-modeling/references/doc_map.md",
+        "skills/opensees-inputs-and-modeling/references/source_map.md",
+        "skills/opensees-simulation-workflows/SKILL.md",
+        "skills/opensees-simulation-workflows/references/doc_map.md",
+        "skills/opensees-simulation-workflows/references/source_map.md",
+        "skills/opensees-src/SKILL.md",
+        "skills/opensees-src/references/doc_map.md",
+        "skills/opensees-src/references/source_map.md",
+        "skills/opensees-theory-and-methods/SKILL.md",
+        "skills/opensees-theory-and-methods/references/doc_map.md",
+        "skills/opensees-theory-and-methods/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "DEVELOPER",
+      "SRC/doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary user-facing docs are maintained in the external OpenSeesDocumentation repository; in-repo docs are mostly legacy/developer focused.",
+      "Explicit roots are used to avoid missing uppercase directory names during auto-discovery.",
+      "Generator script was patched to support .tex docs and to fix f-string syntax errors blocking dry-run execution."
+    ],
+    "package_name": "opensees",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "DEVELOPER",
+      "SRC"
+    ],
+    "test_dirs": [
+      "tests",
+      "EXAMPLES/ExamplesForTesting",
+      "SRC/unittest"
+    ],
+    "tutorial_dirs": [
+      "EXAMPLES",
+      "Workshops"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/opensees-opensees",
+  "run_id": "compile_20260305T022431909191Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "opensees-api-and-scripting",
+      "opensees-build-and-install",
+      "opensees-developer-guide",
+      "opensees-examples-and-tutorials",
+      "opensees-index",
+      "opensees-inputs-and-modeling",
+      "opensees-simulation-workflows",
+      "opensees-src",
+      "opensees-theory-and-methods"
+    ],
+    "core_skill_ids": [
+      "opensees-examples-and-tutorials",
+      "opensees-src",
+      "opensees-build-and-install",
+      "opensees-api-and-scripting",
+      "opensees-theory-and-methods",
+      "opensees-inputs-and-modeling"
+    ],
+    "deferred_gaps": [
+      "In-repo docs are incomplete versus the external OpenSeesDocumentation repo; pass 3 should record explicit coverage limits.",
+      "Troubleshooting/FAQ content may require mining issue patterns or external docs if in-repo evidence is sparse.",
+      "Vendored third-party code under OTHER is intentionally de-prioritized unless a generated skill requires dependency internals."
+    ],
+    "goal": "Generate a stable OpenSees docs-first skills baseline in pass 2, then audit coverage and routing quality in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route install/modeling/run/API/troubleshooting requests to the right skill",
+          "List docs/tutorial/test/source entry roots"
+        ],
+        "reason": "Top-level router is required to keep responses docs-first and direct users to focused topic skills.",
+        "skill_id": "opensees-index",
+        "source_hints": [
+          "README.md",
+          "DEVELOPER",
+          "SRC/doc",
+          "EXAMPLES",
+          "Workshops",
+          "tests"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Linux/Windows build paths and required toolchains",
+          "CMake and legacy makefile entry points"
+        ],
+        "reason": "Build and environment setup are first-step blockers for most users and contributors.",
+        "skill_id": "opensees-build-and-install",
+        "source_hints": [
+          "DEVELOPER/UnixInstructions.txt",
+          "DEVELOPER/WindowsInstructions.txt",
+          "CMakeLists.txt",
+          "cmake",
+          "Makefile"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Map model-building command families to docs/examples",
+          "Highlight minimal reproducible Tcl/Python model setups"
+        ],
+        "reason": "Core user questions center on modeling commands, element/material choices, and input patterns.",
+        "skill_id": "opensees-inputs-and-modeling",
+        "source_hints": [
+          "SRC/doc/OpenSeesCommands.tex",
+          "SRC/doc/Elastic3DCommands.tex",
+          "EXAMPLES/ExampleScripts",
+          "EXAMPLES/ExamplePython"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Canonical analysis flow and control commands",
+          "Recorder/output patterns and rerun loops"
+        ],
+        "reason": "Users need a clear run/checkpoint/output workflow from scripts to analysis results.",
+        "skill_id": "opensees-simulation-workflows",
+        "source_hints": [
+          "SRC/doc/OpenSeesExamples.tex",
+          "EXAMPLES/ExamplesForTesting",
+          "SRC/recorder"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Differentiate Tcl interpreter workflows vs Python examples",
+          "Point to API extension entry points for developers"
+        ],
+        "reason": "OpenSees usage spans Tcl and Python scripting, so routing between interfaces is high impact.",
+        "skill_id": "opensees-api-and-scripting",
+        "source_hints": [
+          "EXAMPLES/ExamplePython",
+          "SRC/interpreter",
+          "SRC/runtime/python",
+          "SRC/tcl"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Curate beginner-to-advanced runnable examples",
+          "Link workshop scripts to matching command documentation"
+        ],
+        "reason": "Examples/workshops provide the fastest path to runnable, validated user workflows.",
+        "skill_id": "opensees-examples-and-tutorials",
+        "source_hints": [
+          "EXAMPLES",
+          "Workshops/OpenSeesDays",
+          "Workshops/SimWorkshop"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Extension points for elements/materials and core architecture references",
+          "Developer build/test touchpoints"
+        ],
+        "reason": "Contributor and extension workflows need a dedicated skill separate from end-user modeling guidance.",
+        "skill_id": "opensees-developer-guide",
+        "source_hints": [
+          "DEVELOPER",
+          "SRC/api",
+          "SRC/domain",
+          "SRC/element",
+          "SRC/material"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "opensees-theory-and-methods",
+      "opensees-src",
+      "opensees-simulation-workflows",
+      "opensees-inputs-and-modeling",
+      "opensees-examples-and-tutorials",
+      "opensees-developer-guide"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/opensees-opensees/skills/opensees-theory-and-methods/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/opensees-opensees/skills/opensees-src/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/opensees-opensees/skills/opensees-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/opensees-opensees/skills/opensees-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/opensees-opensees/skills/opensees-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/opensees-opensees/skills/opensees-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "opensees-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "opensees-index",
+      "opensees-build-and-install",
+      "opensees-inputs-and-modeling",
+      "opensees-simulation-workflows",
+      "opensees-api-and-scripting",
+      "opensees-examples-and-tutorials",
+      "opensees-developer-guide"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 9,
+    "source_inventory": {},
+    "source_links_total": 98,
+    "topic_skills": 8,
+    "warnings": []
+  }
+}
